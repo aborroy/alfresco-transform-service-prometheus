@@ -8,6 +8,8 @@ This project includes a Docker Compose template to provide a sample configuratio
 
 >> Note this is a sample deployment designed for education purposes. When using Alfresco Transform Service in real world, additional requirements should impact in the design of the final deployment.
 
+Docker Images from [quay.io](https://quay.io/organization/alfresco) are used, since this product is only available for Alfresco Enterprise customers. If you are Enterprise Customer or Partner but you are still experimenting problems to download Docker Images, contact [Alfresco Hyland Support](https://community.hyland.com) in order to get required credentials and permissions.
+
 ## Using
 
 ```
