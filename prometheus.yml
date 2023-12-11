@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'transform-router'
+    scrape_interval: 5s
+    metrics_path: /actuator/prometheus
+    static_configs:
+    - targets: ['transform-router:8095']
+  - job_name: 'transform-core-aio'
+    scrape_interval: 5s
+    metrics_path: /actuator/prometheus
+    static_configs:
+    - targets: ['transform-core-aio:8090']    
